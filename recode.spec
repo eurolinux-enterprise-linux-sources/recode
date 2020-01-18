@@ -1,7 +1,7 @@
 Summary: Conversion between character sets and surfaces
 Name: recode
 Version: 3.6
-Release: 36%{?dist}
+Release: 38%{?dist}
 License: GPLv2+
 Group: Applications/File
 Source: http://recode.progiciels-bpi.ca/archives/recode-%{version}.tar.gz
@@ -102,6 +102,12 @@ rm -rf $RPM_BUILD_ROOT
 %{_includedir}/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 3.6-38
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.6-37
+- Mass rebuild 2013-12-27
+
 * Mon Feb 25 2013 Zoltan Kota <zoltank[AT]gmail.com> 3.6-36
 - Fix failed Fedora_19_Mass_Rebuild [bug #914431].
 
